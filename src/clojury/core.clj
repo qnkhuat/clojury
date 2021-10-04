@@ -30,8 +30,10 @@
 (defn -odd? []())
 (defn -update-in [] ())
 (defn -get-in [] ())
+(defmacro -defn [] ())
 (defmacro -if-let [] ())
 (defmacro -when-let [] ())
+(defmacro -with-open [] ()); shorthand to deal with a stream. it'll auto close the stream when exit
 
 
 ; (defn first [] ())
