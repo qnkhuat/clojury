@@ -30,6 +30,8 @@
 (defn -odd? []())
 (defn -update-in [] ())
 (defn -get-in [] ())
+(defmacro -if-let [] ())
+(defmacro -when-let [] ())
 
 
 ; (defn first [] ())
